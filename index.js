@@ -24,4 +24,5 @@ console.log(fullName);
 
 let buyerName = "Олександро";
 let payment = 300;
-alert("Дякуємо, " + buyerName + "! " + "До сплати " + payment + " гривень");
+// alert("Дякуємо, " + buyerName + "! " + "До сплати " + payment + " гривень");
+alert(`Дякуємо, ${buyerName}! До сплати ${payment} гривень`);
